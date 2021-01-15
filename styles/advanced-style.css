@@ -3,6 +3,37 @@
   padding: 0;
 }
 
+#search-form {
+  font-family: verdana;
+  width: 100%;
+  padding: 1%;
+}
+
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}
+
+input[type="text"] {
+  border: 1px solid black;
+  padding: 0.5%;
+  width: 30%;
+}
+
+input[type="submit"] {
+  display: block;
+  margin-top: 1%;
+  width: 20%;
+  padding: 0.5%;
+  font-size: 110%;
+  cursor: pointer;
+  border-radius: 25px;
+  color: white;
+  background-color: rgb(3, 199, 3);
+  border: 1px solid rgb(3, 199, 3);
+}
+
 ul {
   list-style-type: none;
   margin: 0;

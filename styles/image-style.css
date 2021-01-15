@@ -3,6 +3,32 @@
   padding: 0;
 }
 
+#search-form {
+  padding: 2% 0 2% 0;
+}
+
+#search-form input[type="text"] {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding: 1%;
+  font-size: 110%;
+  border-radius: 25px;
+}
+
+#search-form input[type="submit"] {
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding: 0.5%;
+  font-size: 110%;
+  cursor: pointer;
+  border-radius: 25px;
+  color: white;
+  background-color: rgb(3, 199, 3);
+  border: 1px solid rgb(3, 199, 3);
+}
+
 ul {
   list-style-type: none;
   margin: 0;
