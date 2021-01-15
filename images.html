@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search</title>
+    <link rel="stylesheet" href="styles/image-style.css">
 </head>
 <body>
     
@@ -13,11 +14,14 @@
         <li><a href="./advanced.html">Google Advanced search</a></li>
     </ul>
 
-    <form action="https://google.com/search">
-        <input type="hidden" id="custId" name="tbm" value="isch">
-        <input type="text" name="q">
-        <input type="submit" value="Google Images Search">
-    </form>
+    <div id="search-form">
+        <form action="https://google.com/search">
+            <input type="hidden" id="custId" name="tbm" value="isch">
+            <input type="text" name="q">
+            <br>
+            <input type="submit" value="Google Images Search">
+        </form>
+    </div>
 
 </body>
 </html>
