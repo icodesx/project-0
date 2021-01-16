@@ -17,8 +17,8 @@
 }
 
 #search-form input[type="submit"] {
-  display: block;
-  margin: auto;
+  display: inline;
+  margin: 1%;
   width: 15%;
   padding: 0.5%;
   font-size: 110%;
@@ -27,6 +27,13 @@
   color: white;
   background-color: rgb(3, 199, 3);
   border: 1px solid rgb(3, 199, 3);
+}
+
+#submit-inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
